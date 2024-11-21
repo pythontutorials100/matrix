@@ -1,0 +1,8 @@
+INSERT DATA {
+
+:part_17 :participates_in :process_7 .
+:part_19 :participates_in :process_9 .
+:part_32 :participates_in :process_17 .
+
+
+}

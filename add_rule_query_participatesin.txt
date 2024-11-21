@@ -1,0 +1,18 @@
+# Insert the rule into the Stardog schema graph
+INSERT DATA {
+  GRAPH <tag:stardog:api:context:schema> {
+    :PartParticipatesInProcessRule rdf:type <tag:stardog:api:rule:SPARQLRule> ;
+      <tag:stardog:api:rule:content> """
+        PREFIX : <http://api.stardog.com/>
+        
+        IF {
+          ?specification :prescribes ?part .
+          ?specification :is_about ?plan .
+          ?plan :prescribes ?process .
+        }
+        THEN {
+          ?part :participates_in ?process .
+        }
+      """ .
+  }
+}

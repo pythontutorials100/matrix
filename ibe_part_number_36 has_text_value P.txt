@@ -1,0 +1,38 @@
+:ibe_part_number_36 :has_text_value "PN-1036"
+:ice_part_number_36 :generically_depends_on :ibe_part_number_36
+:ice_part_number_36 :designates :part_36
+:part_36 :bearer_of :CNC_Machining_Accessibility_Quality_36.14
+
+:ice_CNC_Machining_Accessibility_Quality_36.14 :describes :CNC_Machining_Accessibility_Quality_36.14 
+:ice_CNC_Machining_Accessibility_Quality_36.14 :generically_depends_on :ibe_CNC_Machining_Accessibility_Quality_36.14
+
+:ibe_CNC_Machining_Accessibility_Quality_36.14 :has_boolean_value false
+
+
+
+
+
+
+
+
+:ibe_process_5 :has_text_value "Laser Marking"
+:ice_process_5 :generically_depends_on :ibe_process_5
+:ice_process_5 :designates :process_5
+:plan_5 :prescribes :process_5
+:specification_5 :is_about :plan_5
+:specification_5 :has_part :ice_CNC_Machining_Accessibility_Quality_spec_5.14
+:ice_CNC_Machining_Accessibility_Quality_spec_5.14 :generically_depends_on :ibe_CNC_Machining_Accessibility_Quality_spec_5.14
+:ibe_CNC_Machining_Accessibility_Quality_spec_5.14 :has_boolean_value false
+
+
+
+
+qualities are in the following form for each part
+:Marking_Requirement_Quality_12.3
+
+:Program_Specific_Marking_Requirement_Quality_12.4
+
+:AdditiveManufacturedQuality_12.7
+
+
+and so on. 

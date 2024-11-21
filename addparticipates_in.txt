@@ -1,0 +1,6 @@
+# Insert the :participates_in property into the Stardog schema graph
+INSERT DATA {
+  GRAPH <tag:stardog:api:context:schema> {
+    :participates_in rdf:type owl:ObjectProperty .
+  }
+}
